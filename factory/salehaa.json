@@ -1,0 +1,9 @@
+{
+	"name": "salehaa",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "28d417cc-15b3-4471-9fd5-3a5dc5086e48",
+		"tenantId": "e2f0c528-4507-4440-a2fb-285f1c64352f"
+	}
+}
