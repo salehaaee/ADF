@@ -7,17 +7,17 @@
 			"metadata": "Data Factory name",
 			"defaultValue": "Adfsaleha"
 		},
-		"AzureDataLakeStorage1_accountKey": {
+		"AZURE_SINK_DS_JSON_accountKey": {
 			"type": "secureString",
-			"metadata": "Secure string for 'accountKey' of 'AzureDataLakeStorage1'"
+			"metadata": "Secure string for 'accountKey' of 'AZURE_SINK_DS_JSON'"
 		},
 		"AzureSqlDatabase1_connectionString": {
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'AzureSqlDatabase1'"
 		},
-		"AzureDataLakeStorage1_properties_typeProperties_url": {
+		"AZURE_SINK_DS_JSON_properties_typeProperties_url": {
 			"type": "string",
-			"defaultValue": "https://salehakhann123adls.dfs.core.windows.net/"
+			"defaultValue": "https://salehanewstorage.dfs.core.windows.net/"
 		},
 		"containerUri": {
 			"type": "string",
@@ -46,14 +46,14 @@
 					"factoryName": {
 						"value": "[parameters('factoryName')]"
 					},
-					"AzureDataLakeStorage1_accountKey": {
-						"value": "[parameters('AzureDataLakeStorage1_accountKey')]"
+					"AZURE_SINK_DS_JSON_accountKey": {
+						"value": "[parameters('AZURE_SINK_DS_JSON_accountKey')]"
 					},
 					"AzureSqlDatabase1_connectionString": {
 						"value": "[parameters('AzureSqlDatabase1_connectionString')]"
 					},
-					"AzureDataLakeStorage1_properties_typeProperties_url": {
-						"value": "[parameters('AzureDataLakeStorage1_properties_typeProperties_url')]"
+					"AZURE_SINK_DS_JSON_properties_typeProperties_url": {
+						"value": "[parameters('AZURE_SINK_DS_JSON_properties_typeProperties_url')]"
 					}
 				}
 			},

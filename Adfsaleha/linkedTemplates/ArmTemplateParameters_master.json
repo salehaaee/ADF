@@ -5,14 +5,14 @@
 		"factoryName": {
 			"value": "Adfsaleha"
 		},
-		"AzureDataLakeStorage1_accountKey": {
+		"AZURE_SINK_DS_JSON_accountKey": {
 			"value": ""
 		},
 		"AzureSqlDatabase1_connectionString": {
 			"value": ""
 		},
-		"AzureDataLakeStorage1_properties_typeProperties_url": {
-			"value": "https://salehakhann123adls.dfs.core.windows.net/"
+		"AZURE_SINK_DS_JSON_properties_typeProperties_url": {
+			"value": "https://salehanewstorage.dfs.core.windows.net/"
 		},
 		"containerUri": {
 			"value": ""
