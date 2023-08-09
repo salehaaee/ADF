@@ -7,10 +7,12 @@
 		},
 		"parameters": {
 			"table_name": {
-				"type": "string"
+				"type": "string",
+				"defaultValue": "product"
 			},
 			"customer_name": {
-				"type": "string"
+				"type": "string",
+				"defaultValue": "saleslt"
 			}
 		},
 		"annotations": [],
