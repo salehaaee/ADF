@@ -43,6 +43,12 @@
 						"referenceName": "AZ_SQL_PRODUCT",
 						"type": "DatasetReference"
 					}
+				],
+				"outputs": [
+					{
+						"referenceName": "Json1",
+						"type": "DatasetReference"
+					}
 				]
 			},
 			{
@@ -81,6 +87,12 @@
 				"inputs": [
 					{
 						"referenceName": "AZ_SQL_PRODUCT",
+						"type": "DatasetReference"
+					}
+				],
+				"outputs": [
+					{
+						"referenceName": "Json1",
 						"type": "DatasetReference"
 					}
 				]
