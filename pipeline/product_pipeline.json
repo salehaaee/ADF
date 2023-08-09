@@ -36,12 +36,6 @@
 						"referenceName": "AZ_SQL_PRODUCT",
 						"type": "DatasetReference"
 					}
-				],
-				"outputs": [
-					{
-						"referenceName": "Azure_data_json",
-						"type": "DatasetReference"
-					}
 				]
 			},
 			{
