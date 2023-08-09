@@ -6,13 +6,12 @@
 			"type": "LinkedServiceReference"
 		},
 		"parameters": {
-			"table_name": {
-				"type": "string",
-				"defaultValue": "product"
-			},
-			"customer_name": {
+			"schema_name": {
 				"type": "string",
 				"defaultValue": "saleslt"
+			},
+			"table_name": {
+				"type": "string"
 			}
 		},
 		"annotations": [],
@@ -20,7 +19,7 @@
 		"schema": [],
 		"typeProperties": {
 			"schema": {
-				"value": "@dataset().customer_name",
+				"value": "@dataset().schema_name",
 				"type": "Expression"
 			},
 			"table": {

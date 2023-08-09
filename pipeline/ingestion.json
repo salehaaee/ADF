@@ -22,7 +22,7 @@
 						"partitionOption": "None"
 					},
 					"dataset": {
-						"referenceName": "AZ_SQL_PRODUCT",
+						"referenceName": "Azure_cs_ds",
 						"type": "DatasetReference"
 					}
 				}
@@ -79,8 +79,8 @@
 									"referenceName": "sql_generic_ds",
 									"type": "DatasetReference",
 									"parameters": {
-										"table_name": "product",
-										"customer_name": "saleslt"
+										"schema_name": "saleslt",
+										"table_name": "product"
 									}
 								}
 							],
@@ -124,7 +124,7 @@
 							},
 							"inputs": [
 								{
-									"referenceName": "AZ_SQL_PRODUCT",
+									"referenceName": "Azure_cs_ds",
 									"type": "DatasetReference"
 								}
 							],
