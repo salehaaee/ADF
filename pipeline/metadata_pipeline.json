@@ -15,25 +15,20 @@
 				},
 				"userProperties": [
 					{
-						"name": "table_name"
+						"name": "table_name",
+						"value": "product"
 					}
 				],
 				"typeProperties": {
 					"dataset": {
-						"referenceName": "csv_ds_adls",
-						"type": "DatasetReference",
-						"parameters": {
-							"table_name": "product"
-						}
+						"referenceName": "Azure_cs_ds",
+						"type": "DatasetReference"
 					},
-					"fieldList": [],
-					"storeSettings": {
-						"type": "AzureBlobFSReadSettings",
-						"enablePartitionDiscovery": false
-					},
-					"formatSettings": {
-						"type": "DelimitedTextReadSettings"
-					}
+					"fieldList": [
+						"columnCount",
+						"exists",
+						"structure"
+					]
 				}
 			},
 			{
@@ -95,7 +90,7 @@
 									"type": "DatasetReference",
 									"parameters": {
 										"filename": {
-											"value": "@item().itemname",
+											"value": "@item().name",
 											"type": "Expression"
 										}
 									}
