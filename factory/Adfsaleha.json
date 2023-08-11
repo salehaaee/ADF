@@ -5,6 +5,10 @@
 			"containername": {
 				"type": "string",
 				"value": "landing"
+			},
+			"schemaname": {
+				"type": "string",
+				"value": "saleslt"
 			}
 		}
 	},
