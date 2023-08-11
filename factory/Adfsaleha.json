@@ -1,0 +1,12 @@
+{
+	"name": "Adfsaleha",
+	"properties": {
+		"globalParameters": {
+			"containername": {
+				"type": "string",
+				"value": "landing"
+			}
+		}
+	},
+	"location": "eastus"
+}
