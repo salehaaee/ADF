@@ -1,0 +1,46 @@
+{
+	"name": "SQl_DB_WITH_LS",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Sql_db_generic_cs",
+			"type": "LinkedServiceReference",
+			"parameters": {
+				"dbname": {
+					"value": "@dataset().dbname",
+					"type": "Expression"
+				},
+				"dbendpoint": {
+					"value": "@dataset().endpoint",
+					"type": "Expression"
+				}
+			}
+		},
+		"parameters": {
+			"schmename": {
+				"type": "string"
+			},
+			"tablename": {
+				"type": "string"
+			},
+			"endpoint": {
+				"type": "string"
+			},
+			"dbname": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": {
+				"value": "@dataset().schmename",
+				"type": "Expression"
+			},
+			"table": {
+				"value": "@dataset().tablename",
+				"type": "Expression"
+			}
+		}
+	}
+}

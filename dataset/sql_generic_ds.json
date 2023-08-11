@@ -11,8 +11,7 @@
 				"defaultValue": "saleslt"
 			},
 			"table_name": {
-				"type": "string",
-				"defaultValue": "product"
+				"type": "string"
 			}
 		},
 		"annotations": [],
