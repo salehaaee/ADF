@@ -1,0 +1,40 @@
+{
+	"name": "pipeline_VAR",
+	"properties": {
+		"activities": [
+			{
+				"name": "Append variable1",
+				"type": "AppendVariable",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"variableName": "FILENAME",
+					"value": "abcd.txt"
+				}
+			},
+			{
+				"name": "Append variable2",
+				"type": "AppendVariable",
+				"dependsOn": [
+					{
+						"activity": "Append variable1",
+						"dependencyConditions": [
+							"Succeeded"
+						]
+					}
+				],
+				"userProperties": [],
+				"typeProperties": {
+					"variableName": "FILENAME",
+					"value": "xyz.txt"
+				}
+			}
+		],
+		"variables": {
+			"FILENAME": {
+				"type": "Array"
+			}
+		},
+		"annotations": []
+	}
+}
