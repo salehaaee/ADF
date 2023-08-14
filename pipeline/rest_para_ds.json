@@ -9,7 +9,7 @@
 				"userProperties": [],
 				"typeProperties": {
 					"items": {
-						"value": "@variables('countryname')",
+						"value": "@variables('countryNames')",
 						"type": "Expression"
 					},
 					"activities": [
@@ -72,11 +72,9 @@
 			}
 		],
 		"variables": {
-			"countryname": {
-				"type": "Array",
-				"defaultValue": [
-					"[*eesti* , *deutschland*]"
-				]
+			"countryNames": {
+				"type": "String",
+				"defaultValue": "[*eesti*,*deutschland*]"
 			}
 		},
 		"annotations": []
