@@ -2,7 +2,7 @@
 	"name": "Azure_cs_ds",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "AzureSqlDatabase1",
+			"referenceName": "AzureSqlDatabase221354",
 			"type": "LinkedServiceReference"
 		},
 		"annotations": [],
