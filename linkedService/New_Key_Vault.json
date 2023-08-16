@@ -1,0 +1,10 @@
+{
+	"name": "New_Key_Vault",
+	"properties": {
+		"annotations": [],
+		"type": "AzureKeyVault",
+		"typeProperties": {
+			"baseUrl": "https://SalehaaKeyVault.vault.azure.net/"
+		}
+	}
+}
