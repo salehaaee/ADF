@@ -1,0 +1,85 @@
+{
+	"name": "Customer_file_ds",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AZURE_SINK_DS_JSON",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "customer.txt",
+				"folderPath": "rest_output",
+				"fileSystem": "raw"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "cca2",
+				"type": "String"
+			},
+			{
+				"name": "ccn3",
+				"type": "String"
+			},
+			{
+				"name": "cca3",
+				"type": "String"
+			},
+			{
+				"name": "cioc",
+				"type": "String"
+			},
+			{
+				"name": "independent",
+				"type": "String"
+			},
+			{
+				"name": "status",
+				"type": "String"
+			},
+			{
+				"name": "unMember",
+				"type": "String"
+			},
+			{
+				"name": "region",
+				"type": "String"
+			},
+			{
+				"name": "subregion",
+				"type": "String"
+			},
+			{
+				"name": "landlocked",
+				"type": "String"
+			},
+			{
+				"name": "area",
+				"type": "String"
+			},
+			{
+				"name": "flag",
+				"type": "String"
+			},
+			{
+				"name": "population",
+				"type": "String"
+			},
+			{
+				"name": "fifa",
+				"type": "String"
+			},
+			{
+				"name": "startOfWeek",
+				"type": "String"
+			}
+		]
+	}
+}
