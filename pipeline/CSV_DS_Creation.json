@@ -1,5 +1,5 @@
 {
-	"name": "pipeline2",
+	"name": "CSV_DS_Creation",
 	"properties": {
 		"activities": [
 			{
