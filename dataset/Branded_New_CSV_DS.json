@@ -21,43 +21,63 @@
 		},
 		"schema": [
 			{
-				"name": "Year",
+				"name": "CustomerID",
 				"type": "String"
 			},
 			{
-				"name": "Industry_aggregation_NZSIOC",
+				"name": "NameStyle",
 				"type": "String"
 			},
 			{
-				"name": "Industry_code_NZSIOC",
+				"name": "Title",
 				"type": "String"
 			},
 			{
-				"name": "Industry_name_NZSIOC",
+				"name": "FirstName",
 				"type": "String"
 			},
 			{
-				"name": "Units",
+				"name": "MiddleName",
 				"type": "String"
 			},
 			{
-				"name": "Variable_code",
+				"name": "LastName",
 				"type": "String"
 			},
 			{
-				"name": "Variable_name",
+				"name": "Suffix",
 				"type": "String"
 			},
 			{
-				"name": "Variable_category",
+				"name": "CompanyName",
 				"type": "String"
 			},
 			{
-				"name": "Value",
+				"name": "SalesPerson",
 				"type": "String"
 			},
 			{
-				"name": "Industry_code_ANZSIC06",
+				"name": "EmailAddress",
+				"type": "String"
+			},
+			{
+				"name": "Phone",
+				"type": "String"
+			},
+			{
+				"name": "PasswordHash",
+				"type": "String"
+			},
+			{
+				"name": "PasswordSalt",
+				"type": "String"
+			},
+			{
+				"name": "rowguid",
+				"type": "String"
+			},
+			{
+				"name": "ModifiedDate",
 				"type": "String"
 			}
 		]
