@@ -9,7 +9,7 @@
 						"referenceName": "Rj_sql_ds",
 						"type": "DatasetReference"
 					},
-					"name": "source1"
+					"name": "inputfilesource"
 				}
 			],
 			"sinks": [],
@@ -35,7 +35,7 @@
 				"     allowSchemaDrift: true,",
 				"     validateSchema: false,",
 				"     isolationLevel: 'READ_UNCOMMITTED',",
-				"     format: 'table') ~> source1"
+				"     format: 'table') ~> inputfilesource"
 			]
 		}
 	}
